@@ -15,8 +15,8 @@ gem 'coffee-rails', '~> 4.2.2'
 gem 'daemons', '~> 1.2.4'
 gem 'dalli', '~> 2.7.6'
 gem 'delayed_job_active_record', '~> 4.1.3'
-gem 'devise', '~> 3.5.7'
-gem 'devise-async', '~> 0.10.2'
+gem 'devise', '~> 4.0.0'
+gem 'devise-async', '~> 1.0.0'
 gem 'devise_security_extension', '~> 0.10.0'
 gem 'foundation-rails', '~> 6.4.3.0'
 gem 'foundation_rails_helper', '~> 2.0.0'
@@ -25,7 +25,7 @@ gem 'graphql', '~> 1.7.8'
 gem 'groupdate', '~> 3.2.0'
 gem 'initialjs-rails', '~> 0.2.0.5'
 gem 'invisible_captcha', '~> 0.10.0'
-gem 'jquery-fileupload-rails'
+gem 'jquery-fileupload-rails', '>= 1.0.0'
 gem 'jquery-rails', '~> 4.3.3'
 gem 'jquery-ui-rails', '~> 6.0.1'
 gem 'kaminari', '~> 1.1.1'
@@ -34,12 +34,12 @@ gem 'omniauth', '~> 1.8.1'
 gem 'omniauth-facebook', '~> 4.0.0'
 gem 'omniauth-google-oauth2', '~> 0.4.0'
 gem 'omniauth-twitter', '~> 1.4.0'
-gem 'paperclip', '~> 5.2.1'
+gem 'paperclip', '~> 5.3.0'
 gem 'paranoia', '~> 2.4.1'
 gem 'pg', '~> 0.21.0'
 gem 'pg_search', '~> 2.0.1'
 gem 'redcarpet', '~> 3.4.0'
-gem 'responders', '~> 2.4.0'
+gem 'responders', '~> 3.0.0'
 gem 'rinku', '~> 2.0.2', require: 'rails_rinku'
 gem 'rollbar', '~> 2.18.0'
 gem 'sass-rails', '~> 5.0', '>= 5.0.4'
@@ -53,7 +53,7 @@ gem 'uglifier', '~> 4.1.19'
 gem 'unicorn', '~> 5.4.1'
 gem 'whenever', '~> 0.10.0', require: false
 gem 'globalize', '~> 5.0.0'
-gem 'globalize-accessors', '~> 0.2.1'
+gem 'globalize-accessors', '~> 0.3.0'
 gem 'recipient_interceptor', '~> 0.2.0'
 
 source 'https://rails-assets.org' do
@@ -80,7 +80,7 @@ group :test do
   gem 'coveralls', '~> 0.8.22', require: false
   gem 'database_cleaner', '~> 1.7.0'
   gem 'email_spec', '~> 2.1.0'
-  gem 'rspec-rails', '~> 3.8'
+  gem 'rspec-rails', '~> 3.8', '>= 3.8.2'
   gem 'selenium-webdriver', '~> 3.10'
 end
 
@@ -94,7 +94,7 @@ group :development do
   gem 'rubocop-rspec', '~> 1.26.0', require: false
   gem 'rvm1-capistrano3', '~> 1.4.0', require: false
   gem 'scss_lint', '~> 0.55.0', require: false
-  gem 'web-console', '~> 3.3.0'
+  gem 'web-console', '~> 3.3.1'
 end
 
 eval_gemfile './Gemfile_custom'
