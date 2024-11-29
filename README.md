@@ -1,4 +1,5 @@
 ![CONSUL logo](https://raw.githubusercontent.com/consul/consul/master/public/consul_logo.png)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FPriscilaPinto%2Fconsul.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FPriscilaPinto%2Fconsul?ref=badge_shield)
 
 # CONSUL
 
@@ -76,6 +77,9 @@ Check the ongoing documentation at [https://consul_docs.gitbooks.io/docs/content
 ## License
 
 Code published under AFFERO GPL v3 (see [LICENSE-AGPLv3.txt](LICENSE-AGPLv3.txt))
+
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FPriscilaPinto%2Fconsul.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FPriscilaPinto%2Fconsul?ref=badge_large)
 
 ## Contributions
 
