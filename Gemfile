@@ -92,7 +92,7 @@ group :development do
   gem 'mdl', '~> 0.5.0', require: false
   gem 'rubocop', '~> 0.54.0', require: false
   gem 'rubocop-rspec', '~> 1.26.0', require: false
-  gem 'rvm1-capistrano3', '~> 1.4.0', require: false
+  gem 'rvm1-capistrano3', '~> 1.4.1', require: false
   gem 'scss_lint', '~> 0.55.0', require: false
   gem 'web-console', '~> 3.3.0'
 end
